@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "test_comp_wins.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_comp_wins.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "test_invalid_input.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "test_tie.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_tie.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test_user_wins.py",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_user_wins.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
