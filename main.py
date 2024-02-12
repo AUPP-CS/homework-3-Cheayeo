@@ -126,9 +126,9 @@ while not(computer_count == 3 or player_count == 3):
     
     # score count
     
-    if result == "1":
+    if result == 1:
         player_count += 1 # player's score increase 1 point each time of winning
-    elif result == "-1":
+    elif result == -1:
         computer_count += 1 # bot's score increase 1 point each time of winning
     print("========================================")
     print(f" Result: 👧 Player: {player_count} VS 💻 Computer: {computer_count} ") # Print score of player and computer
@@ -136,13 +136,13 @@ while not(computer_count == 3 or player_count == 3):
     # Winner score condition
     if player_count == 3 or computer_count == 3: 
         if player_count == 3:
-            print(" \n 🙆🎉'WICTORY YOUR NAME! GOOD JOB!'🥳🧧\n ")
+            print(" \n 🙆🎉'HERE IS YOUR ANGBAO! GOOD JOB!'🥳🧧\n ")
         elif computer_count == 3:
             print("\n 👾🥇 BOT: I win, try again buddy! 💪🌟\n ")
 
         # Ask user if they want to play again
         print("========================================")
-        continue_again = input("👉 Do you want to play again? (Y/N): ")
+        continue_again = input("👉 Do you want to play again? 🤩(Y/N): ")
         
         # if player chose y, we want both human and bot's score to return to 0 again (this way, the game restart)
         # we don't put condition for n because the loop will just stop by itself once it reaches the bottom
