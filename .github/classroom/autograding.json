@@ -13,7 +13,7 @@
     {
       "name": "test_invalid_input.py",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest",
+      "run": "pytest test_invalid_input.py",
       "input": "",
       "output": "",
       "comparison": "exact",
